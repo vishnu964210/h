@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syntraxs Hospital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <div class="topbar">
+    <div class="container">
+      <span>✦ Your health, our priority — care that moves you forward</span>
+      <div class="toplinks">
+        <a href="#contact">Emergency: +91 40 4567 8900</a>
+        <a href="#contact">Patient Support</a>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container nav" id="nav">
+      <a class="brand" href="#home">
+        <span class="logo">✚</span>
+        <span>SYNTRAXS<small>HOSPITAL & RESEARCH</small></span>
+      </a>
+
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Specialities</a>
+        <a href="#about">About Us</a>
+        <a href="#doctors">Our Doctors</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="btn" onclick="openModal()">Book Appointment</button>
+      <button class="menu-btn" onclick="toggleMenu()" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div>
+          <div class="eyebrow">
+            <span class="dot"></span>
+            Healthcare, reimagined
+          </div>
+
+          <h1>Better health begins with <span>better care.</span></h1>
+
+          <p>
+            At Syntraxs Hospital, expert doctors, thoughtful technology
+            and a human touch come together to make every step of your
+            healthcare journey feel reassuring.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn" onclick="openModal()">Book an Appointment →</button>
+            <a class="outline-btn" href="#services">Explore Specialities</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="trust">
+              <strong>24/7</strong>
+              <small>Emergency care</small>
+            </div>
+            <div class="trust">
+              <strong>Expert</strong>
+              <small>Care teams</small>
+            </div>
+            <div class="trust">
+              <strong>One team</strong>
+              <small>Patient-first approach</small>
+            </div>
+          </div>
+        </div>
+<div class="hospital-scene">
+  <div class="hospital-building">
+
+    <!-- Blueprint drawing -->
+    <svg class="building-blueprint" viewBox="0 0 250 270">
+      <path d="M28 262V51h190v211M18 51h213M17 27h214v24H17z"/>
+      <path d="M116 65h30v30h-30zM51 112h145v113H51z"/>
+      <path d="M99 262v-76q0-23 25-23t24 23v76"/>
+      <path d="M55 116h33v29H55zM105 116h33v29h-33zM155 116h33v29h-33z"/>
+      <path d="M55 158h33v29H55zM155 158h33v29h-33z"/>
+    </svg>
+
+    <!-- 3D-style hospital -->
+    <div class="hospital-sign">SYNTRAXS</div>
+    <div class="hospital-roof"></div>
+    <div class="hospital-main"></div>
+    <div class="hospital-wing"></div>
+    <div class="hospital-cross"></div>
+
+    <div class="hospital-windows">
+      <i></i><i></i><i></i>
+      <i></i><i></i><i></i>
+    </div>
+
+    <div class="hospital-entry"></div>
+  </div>
+</div>
+</div>
+</div>
+
+      </div>
+    </section>
+
+    <!-- SPECIALITIES -->
+    <section class="section" id="services">
+      <div class="container">
+
+        <div class="section-head">
+          <div class="kicker">Our specialities</div>
+          <h2>Complete care, all in one place</h2>
+          <p>
+            Explore coordinated medical services designed around your needs,
+            delivered by experienced care teams.
+          </p>
+        </div>
+
+        <div class="grid4">
+
+          <article class="service">
+            <div class="service-icon">♡</div>
+            <h3>Cardiac Sciences</h3>
+            <p>Comprehensive heart care, from prevention and diagnosis to advanced treatment.</p>
+            <a class="text-link" href="#contact">Explore care →</a>
+          </article>
+
+          <article class="service">
+            <div class="service-icon">✚</div>
+            <h3>Neurosciences</h3>
+            <p>Specialist support for conditions affecting the brain, spine and nervous system.</p>
+            <a class="text-link" href="#contact">Explore care →</a>
+          </article>
+
+          <article class="service">
+            <div class="service-icon">⌁</div>
+            <h3>Orthopaedics</h3>
+            <p>Helping you move with confidence through expert bone, joint and mobility care.</p>
+            <a class="text-link" href="#contact">Explore care →</a>
+          </article>
+
+          <article class="service">
+            <div class="service-icon">✿</div>
+            <h3>Women's Health</h3>
+            <p>Thoughtful, expert care for women's health at every stage of life.</p>
+            <a class="text-link" href="#contact">Explore care →</a>
+          </article>
+
+          <article class="service">
+            <div class="service-icon">☼</div>
+            <h3>Oncology</h3>
+            <p>Multidisciplinary cancer care with a focus on dignity and individual needs.</p>
+            <a class="text-link" href="#contact">Explore care →</a>
+          </article>
+
+          <article class="service">
+            <div class="service-icon">◉</div>
+            <h3>Gastro Sciences</h3>
+            <p>Evaluation and treatment for digestive and liver health concerns.</p>
+            <a class="text-link" href="#contact">Explore care →</a>
+          </article>
+
+          <article class="service">
+            <div class="service-icon">⌂</div>
+            <h3>Paediatrics</h3>
+            <p>Family-centred medical care for infants, children and adolescents.</p>
+            <a class="text-link" href="#contact">Explore care →</a>
+          </article>
+
+          <article class="service">
+            <div class="service-icon">＋</div>
+            <h3>Emergency Care</h3>
+            <p>Round-the-clock emergency support when every moment matters.</p>
+            <a class="text-link" href="#contact">Get help →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+
+        <div class="about-visual">
+          <div class="cross">✚</div>
+          <div class="about-badge">
+            <strong>Care first.</strong>
+            <small>Every patient. Every time.</small>
+          </div>
+        </div>
+
+        <div class="about-copy">
+          <div class="kicker">Why Syntraxs</div>
+          <h2>Care that sees the person, not just the condition.</h2>
+
+          <p>
+            We believe exceptional healthcare is built on trust, clinical
+            excellence and clear communication. Our teams work together
+            to help patients and families make informed decisions with confidence.
+          </p>
+
+          <div class="checks">
+            <span>Experienced specialists</span>
+            <span>Coordinated care</span>
+            <span>Modern facilities</span>
+            <span>Patient-first approach</span>
+          </div>
+
+          <a class="btn" href="#contact">Talk to our team →</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DOCTORS -->
+    <section class="section" id="doctors">
+      <div class="container">
+
+        <div class="section-head">
+          <div class="kicker">Meet the care team</div>
+          <h2>Specialists who listen, guide and care</h2>
+          <p>
+            Meet our illustrative specialist profiles and discover the
+            patient-first philosophy behind their care.
+          </p>
+        </div>
+
+        <div class="doctors">
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar">AR</div>
+              <div class="doc-identity">
+                <h3>Dr. Ananya Rao</h3>
+                <p>Cardiac Sciences</p>
+              </div>
+            </div>
+            <p class="doc-bio">Focuses on helping people understand their heart health and feel informed at every stage of care.</p>
+            <blockquote class="doc-quote">
+              “Good heart care begins with listening. Patients deserve clear answers and a plan they can feel confident about.”
+              <span>Care philosophy · Cardiology</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Ananya Rao"
+              data-specialty="Cardiac Sciences"
+              data-about="Dr. Ananya Rao's illustrative profile focuses on heart health, preventive care and helping patients understand their treatment options."
+              data-quote="Good heart care begins with listening. Patients deserve clear answers and a plan they can feel confident about.">
+              View Doctor →
+            </button>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar teal">AM</div>
+              <div class="doc-identity">
+                <h3>Dr. Arjun Mehta</h3>
+                <p>Neurosciences</p>
+              </div>
+            </div>
+            <p class="doc-bio">Believes neurological care should combine careful evaluation, thoughtful decisions and family support.</p>
+            <blockquote class="doc-quote">
+              “Even complex conditions become easier to face when patients and families are part of every conversation.”
+              <span>Care philosophy · Neurosciences</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Arjun Mehta"
+              data-specialty="Neurosciences"
+              data-about="Dr. Arjun Mehta's illustrative profile highlights neurological assessment, patient education and family-centred support."
+              data-quote="Even complex conditions become easier to face when patients and families are part of every conversation.">
+              View Doctor →
+            </button>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar lavender">PS</div>
+              <div class="doc-identity">
+                <h3>Dr. Priya Sharma</h3>
+                <p>Orthopaedics</p>
+              </div>
+            </div>
+            <p class="doc-bio">Champions practical, individualised plans that help people work towards strength, movement and independence.</p>
+            <blockquote class="doc-quote">
+              “Recovery is personal. The right care plan should respect each patient's goals and pace.”
+              <span>Care philosophy · Orthopaedics</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Priya Sharma"
+              data-specialty="Orthopaedics"
+              data-about="Dr. Priya Sharma's illustrative profile focuses on bone and joint health, mobility and individual recovery goals."
+              data-quote="Recovery is personal. The right care plan should respect each patient's goals and pace.">
+              View Doctor →
+            </button>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar sand">VK</div>
+              <div class="doc-identity">
+                <h3>Dr. Vikram Kumar</h3>
+                <p>Medical Oncology</p>
+              </div>
+            </div>
+            <p class="doc-bio">Emphasises coordinated cancer care, compassionate communication and support for patients and caregivers.</p>
+            <blockquote class="doc-quote">
+              “Alongside treatment, compassion and honest conversations are an essential part of care.”
+              <span>Care philosophy · Oncology</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Vikram Kumar"
+              data-specialty="Medical Oncology"
+              data-about="Dr. Vikram Kumar's illustrative profile represents coordinated cancer care and compassionate communication with patients and families."
+              data-quote="Alongside treatment, compassion and honest conversations are an essential part of care.">
+              View Doctor →
+            </button>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar rose">NS</div>
+              <div class="doc-identity">
+                <h3>Dr. Neha Srinivas</h3>
+                <p>Women's Health</p>
+              </div>
+            </div>
+            <p class="doc-bio">Values respectful, attentive care that gives women the space and information to make informed choices.</p>
+            <blockquote class="doc-quote">
+              “Every patient deserves to be heard, respected and supported in decisions about their health.”
+              <span>Care philosophy · Women's Health</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Neha Srinivas"
+              data-specialty="Women's Health"
+              data-about="Dr. Neha Srinivas's illustrative profile focuses on respectful, attentive women's healthcare and informed decision-making."
+              data-quote="Every patient deserves to be heard, respected and supported in decisions about their health.">
+              View Doctor →
+            </button>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar slate">RS</div>
+              <div class="doc-identity">
+                <h3>Dr. Rahul Sen</h3>
+                <p>Gastro Sciences</p>
+              </div>
+            </div>
+            <p class="doc-bio">Takes a whole-person approach to digestive health, with an emphasis on prevention and understandable guidance.</p>
+            <blockquote class="doc-quote">
+              “Small, informed steps can make a meaningful difference to long-term digestive health.”
+              <span>Care philosophy · Gastro Sciences</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Rahul Sen"
+              data-specialty="Gastro Sciences"
+              data-about="Dr. Rahul Sen's illustrative profile focuses on digestive and liver health, preventive care and helping patients understand their treatment choices."
+              data-quote="Small, informed steps can make a meaningful difference to long-term digestive health.">
+              View Doctor →
+            </button>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar">SK</div>
+              <div class="doc-identity">
+                <h3>Dr. Sanjay Khanna</h3>
+                <p>Paediatrics</p>
+              </div>
+            </div>
+            <p class="doc-bio">Believes children's healthcare works best when families feel welcomed, informed and involved.</p>
+            <blockquote class="doc-quote">
+              “A calm child and a confident parent are both important parts of a good care journey.”
+              <span>Care philosophy · Paediatrics</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Sanjay Khanna"
+              data-specialty="Paediatrics"
+              data-about="Dr. Sanjay Khanna's illustrative profile highlights family-centred care for infants, children and adolescents."
+              data-quote="A calm child and a confident parent are both important parts of a good care journey.">
+              View Doctor →
+            </button>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar teal">MD</div>
+              <div class="doc-identity">
+                <h3>Dr. Meera Desai</h3>
+                <p>Dermatology</p>
+              </div>
+            </div>
+            <p class="doc-bio">Encourages practical skin-health routines and treatment plans tailored to each person's needs.</p>
+            <blockquote class="doc-quote">
+              “Good skin care starts with understanding the person, not just the symptoms.”
+              <span>Care philosophy · Dermatology</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Meera Desai"
+              data-specialty="Dermatology"
+              data-about="Dr. Meera Desai's illustrative profile is centred on skin, hair and nail health, treatment options and realistic care routines."
+              data-quote="Good skin care starts with understanding the person, not just the symptoms.">
+              View Doctor →
+            </button>
+          </article>
+
+          <article class="doctor-card">
+            <div class="doc-top">
+              <div class="doc-avatar lavender">AK</div>
+              <div class="doc-identity">
+                <h3>Dr. Aditya Kapoor</h3>
+                <p>Emergency Medicine</p>
+              </div>
+            </div>
+            <p class="doc-bio">Values clear teamwork, calm communication and prompt attention when patients need urgent care.</p>
+            <blockquote class="doc-quote">
+              “In an emergency, every patient deserves swift attention and clear communication.”
+              <span>Care philosophy · Emergency Medicine</span>
+            </blockquote>
+            <button class="view-doctor" onclick="showDoctor(this)"
+              data-name="Dr. Aditya Kapoor"
+              data-specialty="Emergency Medicine"
+              data-about="Dr. Aditya Kapoor's illustrative profile represents an emergency-care approach built around timely assessment and coordinated teamwork."
+              data-quote="In an emergency, every patient deserves swift attention and clear communication.">
+              View Doctor →
+            </button>
+          </article>
+
+        </div>
+
+        <!-- DOCTOR DETAILS -->
+        <section class="doctor-details" id="doctor-details" aria-live="polite">
+          <h3 id="doctor-detail-name">Select a doctor</h3>
+          <p class="detail-specialty" id="doctor-detail-specialty"></p>
+          <p id="doctor-detail-about"></p>
+          <blockquote class="detail-quote" id="doctor-detail-quote"></blockquote>
+          <button class="detail-close" onclick="closeDoctorDetails()">Close doctor details ↑</button>
+        </section>
+
+        <p class="disclaimer">
+          Doctor names, profiles and care-philosophy quotes are illustrative
+          website content, not verified clinician biographies or actual testimonials.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <h2>Your next step to better health.</h2>
+          <p>Our team is ready to help you find the right care.</p>
+        </div>
+        <button class="btn light" onclick="openModal()">Schedule a Visit →</button>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+
+        <div>
+          <div class="kicker">We're here for you</div>
+          <h2>Connect with Syntraxs</h2>
+
+          <p class="contact-description">
+            Have a question or need help finding a specialist?
+            Reach out to our team and we'll help you take the next step.
+          </p>
+
+          <div class="contact-item">
+            <div class="service-icon">⌖</div>
+            <div>
+              <strong>Visit us</strong>
+              <small>Hyderabad, Telangana, India</small>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="service-icon">☎</div>
+            <div>
+              <strong>Call our team</strong>
+              <small>+91 40 4567 8900 · Demo contact</small>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="service-icon">✉</div>
+            <div>
+              <strong>Email</strong>
+              <small>care@syntraxshospital.example</small>
+            </div>
+          </div>
+        </div>
+
+        <form class="form-card" onsubmit="submitForm(event)">
+          <h3>Request an appointment</h3>
+
+          <div class="fields">
+            <input required placeholder="Your full name" aria-label="Your full name">
+            <input required type="tel" placeholder="Phone number" aria-label="Phone number">
+
+            <select required aria-label="Choose speciality">
+              <option value="">Choose speciality</option>
+              <option>Cardiac Sciences</option>
+              <option>Neurosciences</option>
+              <option>Orthopaedics</option>
+              <option>Women's Health</option>
+              <option>Oncology</option>
+              <option>General Consultation</option>
+            </select>
+
+            <input type="date" aria-label="Preferred date">
+          </div>
+
+          <textarea placeholder="Tell us briefly how we can help (optional)" aria-label="Message"></textarea>
+
+          <button class="btn" type="submit">Send appointment request →</button>
+
+          <div class="notice" id="formNotice">
+            Thanks! Your demo request has been noted in this preview. No message was sent.
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div>
+          <a class="brand footer-brand" href="#home">
+            <span class="logo">✚</span>
+            <span>SYNTRAXS<small>HOSPITAL & RESEARCH</small></span>
+          </a>
+          <p>
+            Advanced healthcare. Compassionate care. A patient-first
+            approach for every step of your journey.
+          </p>
+        </div>
+
+        <div>
+          <h4>Quick links</h4>
+          <div class="footer-links">
+            <a href="#about">About Syntraxs</a>
+            <a href="#services">Specialities</a>
+            <a href="#doctors">Our Doctors</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Patient care</h4>
+          <div class="footer-links">
+            <a href="#contact">Book an appointment</a>
+            <a href="#services">Find a speciality</a>
+            <a href="#contact">Patient support</a>
+            <a href="#contact">Emergency care</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Get in touch</h4>
+          <p>
+            Hyderabad, Telangana<br>
+            +91 40 4567 8900<br>
+            care@syntraxshospital.example
+          </p>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        <span>© 2026 Syntraxs Hospital. Concept website preview.</span>
+        <span>Privacy · Terms · Accessibility</span>
+      </div>
+
+    </div>
+  </footer>
+
+</div>
+
+<!-- APPOINTMENT MODAL -->
+<div class="modal" id="appointmentModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-panel">
+
+    <div class="modal-head">
+      <h3 id="modalTitle">Book an appointment</h3>
+      <button class="close" onclick="closeModal()" aria-label="Close">✕</button>
+    </div>
+
+    <p class="modal-description">
+      Share your details and our care team can help you plan your visit.
+    </p>
+
+    <form onsubmit="submitModal(event)">
+      <div class="fields">
+
+        <input required placeholder="Full name" aria-label="Full name">
+        <input required type="tel" placeholder="Phone number" aria-label="Phone number">
+
+        <select required aria-label="Speciality">
+          <option value="">Select speciality</option>
+          <option>Cardiac Sciences</option>
+          <option>Neurosciences</option>
+          <option>Orthopaedics</option>
+          <option>Women's Health</option>
+          <option>General Consultation</option>
+        </select>
+
+        <input type="date" aria-label="Preferred date">
+
+      </div>
+
+      <button class="btn modal-submit" type="submit">Submit request</button>
+
+      <div class="notice" id="modalNotice">
+        Request noted in this demo preview. No message was sent.
+      </div>
+    </form>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
